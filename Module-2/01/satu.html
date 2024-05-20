@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Satu</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div style="padding: 2em;">
+        <h1 style="text-align: center;">Halaman Satu</h1>
+        <p><a href="home.html">Home</a></p>
+        <div class="container">
+            <!-- Image -->
+            <div class="imgContainer">
+                <img src="kucing.webp" alt="gambarkucing" />
+            </div>  
+        </div>
+        <div class="container">
+            <!-- Figure Tag -->
+            <div class="imgContainer">
+                <figure>
+                    <img src="kucing.webp" alt="gambarkucing" />
+                    <figcaption>Gambar Kucing</figcaption>
+                </figure>
+            </div>  
+        </div>
+        <div class="container">
+            <!-- Forms -->
+            <h2 id="title">Forms</h2>
+            <form>
+                <input type="text" />
+                <input type="password" />
+                <input type="checkbox" />
+                <input type="radio" />
+                <input type="number" />
+                <textarea rows="3" cols="64"></textarea>
+                <input type="submit" value="submit"/>
+            </form>
+        </div>
+        <div class="container">
+            <!-- Button -->
+            <button>Ok</button>
+            <button onclick="doSomething()">Click Me!</button>
+        </div>
+        <div class="container">
+            <!-- Label, Fieldset, & Legend Tag -->
+            <fieldset>
+                <legend>Data Diri</legend>
+                <label for="nama">Nama :</label>
+                <input type="text" name="nama" />
+                <label for="umur">Umur :</label>
+                <input type="number" name="umur" />
+            </fieldset>
+        </div>
+    </div>
+
+    <script>
+        const doSomething = () => {
+            alert("Popup")
+        }
+    </script>
+</body>
+</html>

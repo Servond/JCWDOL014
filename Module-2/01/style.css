@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid black;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+}
+
+a[href] {
+    color: red;
+}
+
+a[href]:hover {
+    color: blue;
+}
