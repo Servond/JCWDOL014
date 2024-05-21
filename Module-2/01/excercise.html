@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise</title>
+    <style>
+        .container {
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 6px;
+            padding: 1em;
+            margin-bottom: 2em;
+        }
+
+        .imgContainer {
+            width: 38em;
+            height: 9em;
+        }
+
+        .btnContainer {
+            color: white;
+            background-color: #4169e1;
+            border: 2px solid black;
+            border-radius: 6px;
+            outline: solid black 2px;
+            outline-offset: -5px;
+            width: 8em;
+            height: 3em;
+        }
+
+        table, th, td {
+            background-color: #ffa500;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 0.5em 1em 0.5em 1em
+        }
+
+        .imgTableContainer {
+            height: 10em;
+            width: 12em;
+        }
+    </style>
+</head>
+<body>
+    <div style="padding: 2em;display: flex;justify-content: center;">
+        <div style="width:800px">
+            <h1 style="text-align: center;">Excercise</h1>
+            <div class="container">
+                <img class="imgContainer" src="https://www.surfertoday.com/images/stories/beach-sunset.jpg"/>
+                <h1>Beautiful!</h1>
+                <p>Modal with a custom image</p>
+                <button class="btnContainer">Lovely!</button>
+            </div>
+            <div class="container" style="display: flex;justify-content: center;">
+                <table>
+                    <tr>
+                        <th>No.</th>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Food</th>
+                        <th>Group</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <img class="imgTableContainer" src="https://www.wfla.com/wp-content/uploads/sites/71/2023/05/GettyImages-1389862392.jpg?w=2560&h=1440&crop=1" />
+                        </td>
+                        <td>Smiling<sup>Cat</sup></td>
+                        <td>Healthy<sub>Fish</sub></td>
+                        <td>
+                            <input type="radio" name="1"/>
+                            <label>Vertebrate</label>
+                            <input type="radio" name="1"/>
+                            <label>Invertebrate</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <img class="imgTableContainer" src="data:image/jpeg;base64,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" />
+                        </td>
+                        <td>Smiling<sup>Cat</sup></td>
+                        <td>Healthy<sub>Fish</sub></td>
+                        <td>
+                            <input type="radio" name="2"/>
+                            <label>Vertebrate</label>
+                            <input type="radio" name="2"/>
+                            <label>Invertebrate</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <img class="imgTableContainer" src="https://www.wfla.com/wp-content/uploads/sites/71/2023/05/GettyImages-1389862392.jpg?w=2560&h=1440&crop=1" />
+                        </td>
+                        <td>Smiling<sup>Cat</sup></td>
+                        <td>Healthy<sub>Fish</sub></td>
+                        <td>
+                            <input type="radio" name="3"/>
+                            <label>Vertebrate</label>
+                            <input type="radio" name="3"/>
+                            <label>Invertebrate</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <img class="imgTableContainer" src="https://www.wfla.com/wp-content/uploads/sites/71/2023/05/GettyImages-1389862392.jpg?w=2560&h=1440&crop=1" />
+                        </td>
+                        <td>Smiling<sup>Cat</sup></td>
+                        <td>Healthy<sub>Fish</sub></td>
+                        <td>
+                            <input style="accent-color: red;" type="radio" name="4"/>
+                            <label style="font-weight: bold;">Vertebrate</label>
+                            <input style="accent-color: red;" type="radio" name="4"/>
+                            <label style="font-weight: bold;">Invertebrate</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <img class="imgTableContainer" src="https://www.wfla.com/wp-content/uploads/sites/71/2023/05/GettyImages-1389862392.jpg?w=2560&h=1440&crop=1" />
+                        </td>
+                        <td>Smiling<sup>Cat</sup></td>
+                        <td>Healthy<sub>Fish</sub></td>
+                        <td>
+                            <input type="radio" name="5"/>
+                            <label>Vertebrate</label>
+                            <input type="radio" name="5"/>
+                            <label>Invertebrate</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>       
+    </div>
+</body>
+</html>
