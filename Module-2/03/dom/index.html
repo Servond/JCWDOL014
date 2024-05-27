@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .customText {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <h1 id="text">Original Text</h1>
+            <button onclick="updateText()">Update Text</button>
+        </div>
+        <div>
+            <div id="test">
+                <h1>test</h1>
+            </div>
+            <button onclick="updateTest()">Update Test</button>
+        </div>
+        <div>
+            <div id="test2">
+                <h1 id="sibling">test 2</h1>
+            </div>
+            <button onclick="updateTest2()">Update Test 2</button>
+            <button onclick="removeTest2()">Remove Test 2</button>
+            <button onclick="setAttribute2()">Attribute Test 2</button>
+            <button id="myButton" onclick="kosong()">Click Me!</button>
+        </div>
+    </div>
+    
+    <script>
+        const updateText = () => {
+            const targetElement = document.getElementById("text");
+            console.log(targetElement);
+            // targetElement.textContent = "Updated Text";
+            targetElement.innerText =" Updated Text";
+        }
+
+        const updateTest = () => {
+            const targetElement = document.getElementById("test");
+            targetElement.innerHTML = "<p>test</p>"
+        }
+
+        const updateTest2 = () => {
+            const newP = document.createElement("p");
+            newP.innerText = "This is a new paragraph";
+            console.log(newP);
+
+            const parentElement = document.getElementById("test2");
+            // parentElement.appendChild(newP);
+
+            const siblingElement = document.getElementById("sibling");
+            parentElement.insertBefore(newP, siblingElement);
+        }
+
+        const removeTest2 = () => {
+            const targetElement = document.getElementById("sibling");
+            const parentElement = targetElement.parentNode;
+            parentElement.removeChild(targetElement);
+        }
+
+        const setAttribute2 = () => {
+            const targetElement = document.getElementById("sibling");
+            targetElement.setAttribute("hidden", "true");
+
+            // targetElement.style.textAlign = "center";
+            // targetElement.style.color = "blue";
+        }
+
+        const kosong = () => {
+            const targetElement = document.getElementById("myButton");
+            targetElement.addEventListener("click", () => {
+                alert("Button Clicked!")
+            })
+        }
+    </script>
+</body>
+</html>
