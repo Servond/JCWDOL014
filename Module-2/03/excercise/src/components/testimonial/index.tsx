@@ -1,7 +1,7 @@
 function Testimonial() {
   return (
     <div
-      className="container"
+      className="wrapper"
       style={{
         backgroundColor: "yellow",
       }}

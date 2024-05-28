@@ -5,12 +5,12 @@ import Testimonial from "./components/testimonial";
 
 function App() {
   return (
-    <>
+    <div>
       <Jumbotron />
       <Profile />
       <Portofolio />
       <Testimonial />
-    </>
+    </div>
   );
 }
 

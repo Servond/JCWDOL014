@@ -1,7 +1,7 @@
 function Portofolio() {
   return (
     <div
-      className="container"
+      className="wrapper"
       style={{
         backgroundColor: "green",
       }}

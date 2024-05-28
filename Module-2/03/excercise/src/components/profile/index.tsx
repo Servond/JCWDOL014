@@ -1,7 +1,7 @@
 function Profile() {
   return (
     <div
-      className="container"
+      className="wrapper"
       style={{
         backgroundColor: "red",
       }}

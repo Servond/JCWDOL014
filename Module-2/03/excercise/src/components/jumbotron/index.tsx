@@ -1,12 +1,22 @@
 function Jumbotron() {
   return (
     <div
-      className="container"
       style={{
-        backgroundColor: "blue",
+        backgroundColor: "#dfe3e6",
+        paddingTop: "5em",
+        paddingBottom: "10em",
+        display: "flex",
+        justifyContent: "center",
       }}
     >
-      <h1>Jumbotron Section</h1>
+      <div
+        style={{
+          height: "50px",
+          width: "50px",
+          backgroundColor: "#ec563d",
+          borderRadius: "50%",
+        }}
+      ></div>
     </div>
   );
 }
