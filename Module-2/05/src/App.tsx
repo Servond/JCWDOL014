@@ -4,6 +4,8 @@ import HookState from "./hookState";
 import HookEffect from "./hookEffect";
 import HookRef from "./hookRef";
 import HookMemo from "./hookMemo";
+import HookReducer from "./hookReducer";
+import HookCallback from "./hookCallback";
 
 export interface IUser {
   user: string;
@@ -25,6 +27,8 @@ function App() {
         <HookEffect />
         <HookRef />
         <HookMemo />
+        <HookReducer />
+        <HookCallback />
       </UserContext.Provider>
       <hr />
       <input
