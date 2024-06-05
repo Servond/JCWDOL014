@@ -3,7 +3,6 @@ import { Todos } from "./components/todosList";
 function HookCallback() {
   const [count, setCount] = useState<number>(0);
   const [todos, setTodos] = useState<string[]>([]);
-
   //   const addTodo = () => {
   //     setTodos((i) => [...i, "New Todo"]);
   //   };
