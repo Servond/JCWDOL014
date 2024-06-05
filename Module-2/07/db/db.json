@@ -1,0 +1,21 @@
+{
+  "superheroes": [
+    {
+      "name": "Batman",
+      "color": "Black",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "superman",
+      "color": "blue"
+    }
+  ],
+  "users": [
+    {
+      "id": "7d95",
+      "email": "test@gmail.com",
+      "password": "asd123"
+    }
+  ]
+}
