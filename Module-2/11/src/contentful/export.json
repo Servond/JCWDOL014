@@ -1,0 +1,2448 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "id": "blogPost",
+        "type": "ContentType",
+        "createdAt": "2024-03-14T07:30:48.258Z",
+        "updatedAt": "2024-06-11T14:33:32.853Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2024-06-11T14:33:32.853Z",
+        "firstPublishedAt": "2024-03-14T07:30:48.836Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/wxwsagx2fy4n/environments/master/content_types/blogPost"
+      },
+      "displayField": "title",
+      "name": "Blog Post",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "summary",
+          "name": "Summary",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "details",
+          "name": "Details",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript",
+                "strikethrough"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, subscript, and strikethrough marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "date",
+          "name": "Date",
+          "type": "Date",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "articleImage",
+          "name": "articleImage",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "authorName",
+          "name": "authorName",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "categoryName",
+          "name": "categoryName",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "id": "blog",
+        "type": "ContentType",
+        "createdAt": "2024-06-12T12:38:39.911Z",
+        "updatedAt": "2024-06-12T12:38:40.458Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-12T12:38:40.458Z",
+        "firstPublishedAt": "2024-06-12T12:38:40.458Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/wxwsagx2fy4n/environments/master/content_types/blog"
+      },
+      "displayField": "title",
+      "name": "Blog",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "summary",
+          "name": "Summary",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "details",
+          "name": "Details",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript",
+                "strikethrough"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, subscript, and strikethrough marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline",
+                "heading-1"
+              ],
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, inline entry, and heading 1 nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "articleImage",
+          "name": "articleImage",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "createdAt",
+          "name": "createdAt",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "wxwsagx2fy4n",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 12,
+        "createdAt": "2024-03-14T07:30:49.033Z",
+        "createdBy": {
+          "sys": {
+            "id": "5RNK2NkVForxdjO2D8PQQ6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-11T14:33:34.002Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5RNK2NkVForxdjO2D8PQQ6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blogPost",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "summary",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "details",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "date",
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "articleImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "authorName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "categoryName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "wxwsagx2fy4n",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-12T12:38:40.670Z",
+        "createdBy": {
+          "sys": {
+            "id": "5RNK2NkVForxdjO2D8PQQ6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-12T12:38:41.580Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5RNK2NkVForxdjO2D8PQQ6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blog",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "summary",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "details",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "articleImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "createdAt",
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "id": "4QoOipUfyM233xkpKyDyLc",
+        "type": "Entry",
+        "createdAt": "2024-06-11T14:33:40.691Z",
+        "updatedAt": "2024-06-11T14:36:48.889Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2024-06-11T14:36:48.889Z",
+        "firstPublishedAt": "2024-06-11T14:36:48.889Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/wxwsagx2fy4n/environments/master/entries/4QoOipUfyM233xkpKyDyLc"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Nitrogen dan Angin Biasa, Mana yang Lebih Baik ?"
+        },
+        "slug": {
+          "en-US": "nitrogen-dan-angin-biasa-mana-yang-lebih-baik"
+        },
+        "summary": {
+          "en-US": "Nitrogen dan Angin Biasa, Mana yang Lebih Baik ?"
+        },
+        "details": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Saat hendak mengisi angin untuk ban mobil baik di bengkel, spbu, atau tukang ban di pinggir jalan, Sahabat pasti akan dijumpai pilihan angin nitrogen dan angin biasa. Sebenarnya apa sih yang membedakan kedua jenis angin tersebut pada penggunaan ban mobil kamu ?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Ini adalah pertanyaan yang pasti sering kamu dengar ketika sedang ganti ban atau melakukan perawatan ban mobil. Memang sekarang ini untuk mengisi ban mobil terdapat dua pilihan yaitu dengan angin biasa atau Nitrogen. Lantas apa perbedaan antara keduanya dan mana yang paling bagus?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Perbedaan Angin Biasa dan Nitrogen",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Ban mobil memiliki peran yang vital dalam berkendara, sehingga kamu perlu secara rutin mengecek kondisi tekanan angin pada ban. Karena tekanan angin pada ban mobil itu memang harus pas, tidak boleh kurang dan juga tidak boleh lebih.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Nah, Nitrogen itu adalah gas udara murni yang sudah tersaring dan tidak memiliki kandungan air di dalamnya. Berbeda dengan angin biasa yang mengandalkan oksigen, kandungan gasnya masih ada airnya. Sehingga saat ban diisi dengan angin biasa, akan terasa lebih berat karena terjadi proses pemuaian di dalam ban. Sementara kalau diisi dengan angin Nitrogen, ban akan lebih ringan.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Kandungan air pada angin biasa ini saat cuaca panas akan menguap sehingga tekanan ban jadi lebih besar dan pastinya lebih berat, makanya sering terjadi pecah ban. Pada Nitrogen yang minim kandungan air, membuat ban lebih sulit memuai saat dipakai di cuaca panas dan tekanan ban akan lebih stabil saat digunakan. Penggunaan angin biasa dapat menyebabkan karet ban menjadi cepat keras karena proses oksidasi.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Keunggulan Penggunaan Nitrogen",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Sementara itu, nitrogen bisa membuat ban lebih awet sebab dengan tekanan yang lebih stabil, karet ban tidak mudah rusak karena benturan. Tapi jika menggunakan angin biasa dan kamu selalu menjaga tekanannya maka ban mobil juga bisa tetap awet kok. Bagi kendaraan yang disimpan dalam jangka waktu cukup lama, udara nitrogen dapat bertahan selama satu hingga tiga minggu lebih lama dibanding angin biasa.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Kemudian Nitrogen bisa bikin hemat bahan bakar karena tekanan angin pada ban stabil. Salah satu penyebab borosnya bahan bakar memang karena kurangnya tekanan pada ban. Walaupun tekanan nitrogen lebih stabil, bahan bakar kendaraan dengan ban yang diisi angin biasa juga bisa hemat sepanjang tekanan ban selalu terjaga.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Pengaruh Tekanan Angin Pada Ban Terhadap Konsumsi Bahan Bakar",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tekanan angin yang berkurang dapat membuat laju mobil terhambat akibatnya mesin membutuhkan tenaga lebih besar di mana hal ini pasti berpengaruh terhadap konsumsi bahan bakar. Jika tekanan angin pada ban optimal, maka tapak ban akan menempel lebih sempurna di permukaan jalan sehingga membuat konsumsi bahan bakar menjadi lebih irit sekitar",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": " 3,3 persen.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Mengingat tekanan angin pada ban yang optimal dengan penggunaan Nitrogen, maka tapak ban akan menempel lebih sempurna di permukaan jalan. Keselamatan lebih terjamin, tidak perlu takut ban meledak di jalan karena memuai. Hanya saja, dibanding pengisian dengan angin biasa, biaya pengisian nitrogen lebih mahal ya. Dengan usia angin nitrogen yang lebih baik, penggunaan ini lebih cocok untuk menemani perjalanan jauh.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Bolehkah Ban Nitrogen Dicampur Angin Biasa?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Sebagian orang banyak yang bertanya apakah boleh ban nitrogen dicampur angin biasa, jawabannya adalah sebaiknya Anda menghindari hal tersebut karena mencampur angin nitrogen dengan angin biasa memiliki banyak dampak negatif.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Penggunaan angin hasil ban nitrogen dicampur angin biasa dapat membahayakan Anda saat berkendara. Hal ini disebabkan karena tekanan udara di ban mobil Anda tidak stabil dan suhu di ban akan cepat panas. Perbedaan tekanan udara antara oksigen dan nitrogen akan menyebabkan ban cepat panas dan membuat ban mobil bisa meledak. Oleh karena itu, ada baiknya Sahabat jangan memakai hasil ban nitrogen dicampur angin biasa karena bisa berbahaya. ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "wwqeGrucs8bIo0hSnlf0U",
+                      "type": "Link",
+                      "linkType": "Asset"
+                    }
+                  }
+                },
+                "content": [
+                ],
+                "nodeType": "embedded-asset-block"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "date": {
+          "en-US": "2024-06-11T00:00+07:00"
+        },
+        "articleImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "wwqeGrucs8bIo0hSnlf0U"
+            }
+          }
+        },
+        "authorName": {
+          "en-US": "Budi"
+        },
+        "categoryName": {
+          "en-US": "Otomotif"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "id": "5flLlAyfvj29yG9fzIcPXy",
+        "type": "Entry",
+        "createdAt": "2024-06-12T12:48:05.220Z",
+        "updatedAt": "2024-06-12T12:55:54.331Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2024-06-12T12:55:54.331Z",
+        "firstPublishedAt": "2024-06-12T12:55:54.331Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blog"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/wxwsagx2fy4n/environments/master/entries/5flLlAyfvj29yG9fzIcPXy"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Tuberkulosis (TBC) -  Gejala, Penyebab, dan Pengobatan"
+        },
+        "slug": {
+          "en-US": "tuberkulosis-tbc-gejala-penyebab-dan-pengobatan"
+        },
+        "summary": {
+          "en-US": "Apa itu Tuberkulosis (TBC)? "
+        },
+        "details": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Apa itu Tuberkulosis (TBC)? ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tuberkulosis atau sering disingkat TB atau TBC adalah penyakit menular yang disebabkan oleh bakteri Mycobacterium tuberculosis. Penyakit ini dapat menyerang siapa saja dan organ tubuh yang diserang biasanya adalah paru-paru, tulang belakang, kulit, otak, kelenjar getah bening, dan jantung.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Menurut Organisasi Kesehatan Dunia",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": " (WHO)",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", Setiap tahunnya, 10 juta orang terjangkit tuberkulosis (TB). Meskipun penyakit ini dapat dicegah dan disembuhkan, 1,5 juta orang meninggal karena TBC setiap tahunnya – menjadikannya penyakit menular pembunuh terbesar di dunia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Penyebab Tuberkulosis",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tuberkulosis (TBC) disebabkan oleh infeksi bakteri ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "Mycobacterium tuberculosis",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ". Bakteri ini menyebar ketika seseorang menghirup percikan ludah (droplet) saat penderita TBC batuk, berbicara, bersin, tertawa, atau bernyanyi.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Meski TBC dikategorikan sebagai penyakit menular, penularan penyakit ini tidak secepat pilek dan flu. Namun, ada beberapa kelompok yang berisiko tinggi tertular TBC, yaitu :",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang yang tinggal di pemukiman padat dan kumuh.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Petugas medis yang sering merawat penderita TBC.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang lanjut usia (lansia) dan anak-anak.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Pengguna NAPZA",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Penderita penyakit ginjal stadium lanjut.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang yang mengalami kekurangan gizi.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Penderita kecanduan alcohol.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Perokok",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang dengan kekebalan tubuh yang lemah, misalnya penderita HIV/AIDS, kanker, diabetes, orang yang menjalani transplantasi organ, dan lain sebagainya.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang yang sedang dalam terapi obat imunosupresif, misalnya penderita lupus, psoriasis, rheumatoid arthritis, atau penyakit Crohn.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "ordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Gejala Tuberkulosis",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Beberapa gejala atau ciri-ciri umum dari TBC antara lain :",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Batuk Berkepanjangan.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Nyeri Dada.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Kelelahan.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Berkeringat di malam hari.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Demam.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Penurunan Berat Badan.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Nyeri Dada.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "unordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Seringkali, gejala-gejala ini tidak terlalu parah selama berbulan-bulan, sehingga menyebabkan keterlambatan dalam mencari perawatan dan meningkatkan risiko penyebaran infeksi ke orang lain. ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Pengobatan dan Pencegahan Tuberkulosis (TBC) ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Penyakit TBC bisa disembuhkan. Penyakit ini diobati dengan 4 antibiotik standar selama 6 bulan. Obat yang umum termasuk rifampisin dan isoniazid. Dalam beberapa kasus, bakteri TBC tidak merespons obat standar. Dalam kasus ini, pasien menderita TBC yang resistan terhadap obat. Pengobatan TBC yang resistan terhadap obat memerlukan waktu yang lebih lama dan kompleks. ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Pencegahan terhadap Tuberkulosis (TBC) dapat dilakukan dengan pemberian ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "vaksin BCG (Bacillus Calmette-Guerin).",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " Vaksin bacille Calmette-Guérin (BCG) telah ada selama 80 tahun dan merupakan salah satu vaksin yang paling banyak digunakan saat ini, dengan jumlah >80% neonatus dan bayi di negara-negara yang menerapkan vaksin tersebut sebagai bagian dari program imunisasi anak nasional. Vaksin BCG terbukti mempunyai efek perlindungan terhadap meningitis dan TBC pada anak-anak. Hal ini tidak mencegah infeksi primer dan, yang lebih penting, tidak mencegah reaktivasi infeksi paru laten, yang merupakan sumber utama penyebaran bakteri di masyarakat. Oleh karena itu, dampak vaksinasi BCG terhadap penularan TBC terbatas.\n\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Referensi: ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Kemenkes. 2023. Tuberkulosis.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "WHO. 2023. Tuberculosis.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Kemenkes. 2024. Apa itu Penyakit TBC.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "articleImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2Nf8YoV8zKPj243fBdzJfV"
+            }
+          }
+        },
+        "author": {
+          "en-US": "Budi"
+        },
+        "createdAt": {
+          "en-US": "2024-06-12T00:00+07:00"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "id": "2lOsHEj6leles8J3hA2VFj",
+        "type": "Asset",
+        "createdAt": "2024-03-14T07:32:23.666Z",
+        "updatedAt": "2024-03-14T07:33:44.605Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-03-14T07:33:44.605Z",
+        "firstPublishedAt": "2024-03-14T07:33:44.605Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/wxwsagx2fy4n/environments/master/assets/2lOsHEj6leles8J3hA2VFj"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Image-1"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/wxwsagx2fy4n/2lOsHEj6leles8J3hA2VFj/cd6db5c3c2f8bd494b9e690fbb62b9ae/MV5BMTY4OTA0OTYzMl5BMl5BanBnXkFtZTgwNTgxNzU5MTE_.webp",
+            "details": {
+              "size": 383880,
+              "image": {
+                "width": 2560,
+                "height": 1665
+              }
+            },
+            "fileName": "MV5BMTY4OTA0OTYzMl5BMl5BanBnXkFtZTgwNTgxNzU5MTE@.webp",
+            "contentType": "image/webp"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "id": "xjfqFCzDseIX8ChW4h1Om",
+        "type": "Asset",
+        "createdAt": "2024-03-14T07:35:50.689Z",
+        "updatedAt": "2024-03-14T07:36:22.447Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-03-14T07:36:22.447Z",
+        "firstPublishedAt": "2024-03-14T07:36:22.447Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/wxwsagx2fy4n/environments/master/assets/xjfqFCzDseIX8ChW4h1Om"
+      },
+      "fields": {
+        "title": {
+          "en-US": "image-2"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/wxwsagx2fy4n/xjfqFCzDseIX8ChW4h1Om/7fa61d44ba3986c2a5b03d7307313cb2/P.webp",
+            "details": {
+              "size": 805282,
+              "image": {
+                "width": 1707,
+                "height": 2560
+              }
+            },
+            "fileName": "P.webp",
+            "contentType": "image/webp"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "id": "wwqeGrucs8bIo0hSnlf0U",
+        "type": "Asset",
+        "createdAt": "2024-06-11T14:35:25.041Z",
+        "updatedAt": "2024-06-11T14:35:55.361Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-11T14:35:55.361Z",
+        "firstPublishedAt": "2024-06-11T14:35:55.361Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/wxwsagx2fy4n/environments/master/assets/wwqeGrucs8bIo0hSnlf0U"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Ban"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/wxwsagx2fy4n/wwqeGrucs8bIo0hSnlf0U/ae596f1d89ab61c004f251f505b56654/4b18796b-59fb-4650-88be-ea9ee9a34f3a.jpeg",
+            "details": {
+              "size": 150731,
+              "image": {
+                "width": 1200,
+                "height": 675
+              }
+            },
+            "fileName": "4b18796b-59fb-4650-88be-ea9ee9a34f3a.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "id": "2Nf8YoV8zKPj243fBdzJfV",
+        "type": "Asset",
+        "createdAt": "2024-06-12T12:51:58.730Z",
+        "updatedAt": "2024-06-12T12:55:19.435Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2024-06-12T12:55:19.435Z",
+        "firstPublishedAt": "2024-06-12T12:55:19.435Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/wxwsagx2fy4n/environments/master/assets/2Nf8YoV8zKPj243fBdzJfV"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Tuberkulosis"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/wxwsagx2fy4n/2Nf8YoV8zKPj243fBdzJfV/adbc45ea239eca75290cd6f57ef60ef6/tbc.png",
+            "details": {
+              "size": 9057936,
+              "image": {
+                "width": 6000,
+                "height": 4000
+              }
+            },
+            "fileName": "tbc.png",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "48NyD3ENoDXLM0ZfMzzLgV",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "110b3e2c-9876-4f5e-b4e0-c18d8ec9e010"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "createdAt": "2024-03-14T07:15:16Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedAt": "2024-03-14T07:15:16Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Author",
+      "description": "Allows editing of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "499UGjxiGKjkG6NlQl1JJb",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "createdAt": "2024-03-14T07:15:16Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedAt": "2024-03-14T07:15:16Z"
+      }
+    },
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "49amVSE7sT1nJfMOfBwKv3",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "createdAt": "2024-03-14T07:15:16Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedAt": "2024-03-14T07:15:16Z"
+      }
+    },
+    {
+      "name": "Translator",
+      "description": "Allows editing of localized fields in the specified language",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "49aMIkODEBwImKVK6kgrQF",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "wxwsagx2fy4n"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "createdAt": "2024-03-14T07:15:16Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5RNK2NkVForxdjO2D8PQQ6"
+          }
+        },
+        "updatedAt": "2024-03-14T07:15:16Z"
+      }
+    }
+  ]
+}
