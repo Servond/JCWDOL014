@@ -7,7 +7,13 @@ export interface TypeBlogFields {
     slug: EntryFields.Symbol;
     summary: EntryFields.Symbol;
     details: EntryFields.RichText;
-    articleImage: Asset;
+    articleImage: {
+      fields: {
+        file: {
+          url: EntryFields.Symbol;
+        };
+      };
+    };
     author: EntryFields.Symbol;
     createdAt: EntryFields.Date;
   };

@@ -2,11 +2,11 @@ import { client } from "@/utils/contentful";
 import { TypeBlogFields } from "@/types/contentful";
 import Image from "next/image";
 import RichText from "../components/richText";
-
+import Link from "next/link";
 export async function fetchArticle() {
   try {
     const data = await client.getEntries<TypeBlogFields>();
-    console.log(data.items[0].fields);
+    // console.log(data.items[0].fields);
 
     return data?.items;
   } catch (err) {
@@ -31,6 +31,7 @@ export default async function ArticleSection() {
             <p className="text-3xl mb-5">{article.fields.title}</p>
             <p className="text-2xl">{article.fields.summary}</p>
             <RichText document={article.fields.details} />
+            <Link href={`article/${article.fields.slug}`}>Click More</Link>
           </div>
         ))}
       </div>

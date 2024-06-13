@@ -16,6 +16,7 @@
     "@contentful/rich-text-types": "^16.5.2",
     "contentful": "^10.11.10",
     "contentful-cli": "^3.3.2",
+    "html-react-parser": "^5.1.10",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
