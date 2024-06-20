@@ -1,0 +1,20 @@
+{
+  "expenses": [
+    {
+      "title": "Electricity Bill",
+      "nominal": 500000,
+      "type": "Expense",
+      "category": "Utility",
+      "date": "2024-06-20T14:29:57.074Z",
+      "id": 1
+    },
+    {
+      "title": "Food Bill",
+      "nominal": 200000,
+      "type": "Expense",
+      "category": "Food",
+      "date": "2024-06-20T14:30:24.042Z",
+      "id": 2
+    }
+  ]
+}
