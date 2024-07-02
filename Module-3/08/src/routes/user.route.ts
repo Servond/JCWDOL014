@@ -11,7 +11,10 @@ export class UserRoute implements IRoutes {
   }
 
   private initializeRoutes() {
-    this.router.get("/users", this.user.getUserController);
+    this.router.get("/users", this.user.getUsersController);
+    this.router.get("/users/:userId", this.user.getUserController);
     this.router.post("/users", this.user.createUserController);
+    this.router.patch("/users/:userId", this.user.updateUserController);
+    this.router.delete("/users/:userId", this.user.deleteUserController);
   }
 }
