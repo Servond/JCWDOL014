@@ -1,5 +1,7 @@
 import express, { Application, Request, Response, NextFunction } from "express";
 import { IRoutes } from "./interfaces/routes.interface";
+import { config } from "dotenv";
+config();
 
 export class App {
   public app: Application;

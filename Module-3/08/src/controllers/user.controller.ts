@@ -1,8 +1,28 @@
 import { Request, Response, NextFunction } from "express";
 import prisma from "../prisma";
 import userAction from "../actions/user.action";
+import { User } from "../types/express";
 
 export class UserController {
+  public loginController = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const { email, password } = req.body;
+
+      const user = await userAction.login(email, password);
+
+      res.status(200).json({
+        message: "Get user success",
+        data: user,
+      });
+    } catch (err) {
+      next(err);
+    }
+  };
+
   public createUserController = async (
     req: Request,
     res: Response,
@@ -79,10 +99,9 @@ export class UserController {
     next: NextFunction
   ) => {
     try {
-      const { userId } = req.params;
-      // const user = await prisma.user.findFirst();
+      const { email } = req.user as User;
 
-      const user = await userAction.findUserById(Number(userId));
+      const user = await userAction.findUserByEmail(String(email));
 
       if (!user) throw new Error("User not found!");
 
